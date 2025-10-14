@@ -1,3 +1,39 @@
+/* Fonts */
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 1000;
+}
+
+:root {
+  /* Font */
+  --font-figtree: "Figtree", sans-serif;
+
+  /* Colors */
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Spacings */
+  --space-50: 4px;
+  --space-100: 8px;
+  --space-150: 12px;
+  --space-300: 24px;
+}
+
+body {
+  font-family: var(--font-figtree);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  background-color: var(--color-yellow);
+  color: var(--color-gray-950);
+  font-size: 14px;
+}
+
 /* Footer Attribution */
 .attribution {
   position: fixed;
@@ -6,12 +42,14 @@
   transform: translateX(-50%);
   font-size: 0.75rem;
   text-align: center;
+  color: var(--color-gray-500);
 }
 
 .attribution a {
   text-decoration: none;
   font-weight: bold;
   transition: opacity 0.3s ease;
+  color: var(--color-gray-950);
 }
 
 .attribution a:hover {
