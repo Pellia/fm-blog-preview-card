@@ -1,0 +1,20 @@
+/* Footer Attribution */
+.attribution {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.attribution a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
