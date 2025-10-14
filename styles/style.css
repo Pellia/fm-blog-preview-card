@@ -24,6 +24,7 @@
   --space-300: 24px;
 }
 
+/* General */
 body {
   font-family: var(--font-figtree);
   font-weight: 500;
