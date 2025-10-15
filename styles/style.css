@@ -82,6 +82,14 @@ main {
   font-size: 20px;
 }
 
+.card__header:focus,
+.card__header:active,
+.card__header:hover,
+.card__header:invalid {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
+
 .card__paragraph {
   color: var(--color-gray-500);
   font-size: 14px;
